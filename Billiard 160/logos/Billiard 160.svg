@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Tashqi oltin deval/halqa -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#D4AF37" stroke-width="8" />
+  
+  <!-- Ichki to'q yashil doira -->
+  <circle cx="100" cy="100" r="88" fill="#0D5C3A" />
+  
+  <!-- Oq biliard shari -->
+  <circle cx="100" cy="100" r="50" fill="#FFFFFF" />
+  
+  <!-- Shar markazidagi 160 yozuvi -->
+  <text x="100" y="112" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="bold" fill="#0D5C3A" text-anchor="middle">160</text>
+</svg>

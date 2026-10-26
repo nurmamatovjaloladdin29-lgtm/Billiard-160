@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="shaft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3d9a4"/>
+      <stop offset="0.5" stop-color="#d9a860"/>
+      <stop offset="1" stop-color="#a8742f"/>
+    </linearGradient>
+    <linearGradient id="butt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6b3a22"/>
+      <stop offset="0.5" stop-color="#3b1f14"/>
+      <stop offset="1" stop-color="#1e0e08"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff2a8"/>
+      <stop offset="0.5" stop-color="#e8b923"/>
+      <stop offset="1" stop-color="#9c7408"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Tayoq 45 daraja ostida, uchi (kreyda) chap-yuqorida: bosish nuqtasi 4 4 -->
+  <g transform="translate(4 4) rotate(45)">
+    <!-- kreyda (ko'k) -->
+    <rect x="0" y="-1.6" width="3.2" height="3.2" rx="1.2" fill="#2a9df4"/>
+    <!-- ferrule (oq uchlik) -->
+    <rect x="3.2" y="-1.6" width="5" height="3.2" fill="#f7f7f2"/>
+    <!-- asosiy yog'och qism -->
+    <polygon points="8.2,-1.6 50,-2.5 50,2.5 8.2,1.6" fill="url(#shaft)"/>
+    <!-- ulanish halqasi -->
+    <rect x="50" y="-2.6" width="2.4" height="5.2" fill="url(#gold)"/>
+    <!-- dasta (to'q yog'och) -->
+    <polygon points="52.4,-2.6 80,-3.8 80,3.8 52.4,2.6" fill="url(#butt)"/>
+    <!-- zarhal chiziqlar -->
+    <rect x="56" y="-3" width="1.2" height="6" fill="url(#gold)"/>
+    <rect x="59.5" y="-3.1" width="1.2" height="6.2" fill="url(#gold)"/>
+    <!-- bezak: romblar -->
+    <polygon points="66,0 68.5,-2.6 71,0 68.5,2.6" fill="#e8b923"/>
+    <polygon points="72,0 74,-2.2 76,0 74,2.2" fill="#d63b3b"/>
+    <!-- rezina uch -->
+    <rect x="78" y="-3.8" width="2" height="7.6" rx="1" fill="#111"/>
+    <!-- yaltiroq chiziq -->
+    <line x1="9" y1="-1" x2="78" y2="-2.4" stroke="#fff" stroke-opacity="0.35" stroke-width="0.8" stroke-linecap="round"/>
+  </g>
+</svg>
